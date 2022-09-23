@@ -50,4 +50,4 @@ To setup databricks-connect then run:
   > execute  ```.\Deploy.ps1 ```
 
 * **Build Wheel  Package **: wheel package is also uploaded into this Github repo, for refrence.
-wheel file can be found at - ``` /dist/power_service_pipelines_*.whl ```
+wheel file can be found at - ``` .\bin\power_service_pipelines_*.whl ```
