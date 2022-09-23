@@ -1,0 +1,7 @@
+pythonnet
+pytest
+databricks-connect==7.3.*
+pylint==2.3.1
+wheel
+pandas
+pyarrow

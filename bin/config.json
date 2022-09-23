@@ -1,0 +1,6 @@
+{
+    "Settings":{
+        "DatabaseName": "trade",
+        "EnvironemntName": "PROD"
+    }
+}
