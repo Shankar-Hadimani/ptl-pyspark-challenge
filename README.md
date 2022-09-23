@@ -21,7 +21,9 @@ Activate the environment:
 To setup databricks-connect then run:
 ```databricks-connect configure```
 
-
+## 📈 Execute Script Locally
+to execute script locally, there's a test pipeline created whcih can be used with various parameters.
+```python .\test_pipelines.py ```
 
 ## ⚙️ Unit Test execution - 
  > Open Anaconda command prompt  (or VSCode Terminal) 
@@ -39,15 +41,15 @@ To setup databricks-connect then run:
  ``` python setup.py bdist_wheel ```
 
 ## 🗒 Build
-  > Open Anaconda command prompt  / Powreshell prompt (or VSCode Terminal) 
-  > Navigate to the project root folder within Virtual environment
-  > execute  ```.\Build.ps1 ```
+  - Open Anaconda command prompt  / Powreshell prompt (or VSCode Terminal) 
+  - Navigate to the project root folder within Virtual environment
+  - execute  ```.\Build.ps1 ```
 
 ## 🗒 Deploy from local
-  > Open Anaconda command prompt  / Powreshell prompt (or VSCode Terminal) 
-  > Navigate to the project root folder within Virtual environment
-  > add MyBearerToken.txt file with access token added into it
-  > execute  ```.\Deploy.ps1 ```
+  - Open Anaconda command prompt  / Powreshell prompt (or VSCode Terminal) 
+  - Navigate to the project root folder within Virtual environment
+  - add MyBearerToken.txt file with access token added into it
+  - execute  ```.\Deploy.ps1 ```
 
 * **Build Wheel  Package **: wheel package is also uploaded into this Github repo, for refrence.
 wheel file can be found at - ``` .\bin\power_service_pipelines_*.whl ```
