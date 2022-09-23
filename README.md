@@ -1,4 +1,4 @@
-# power service trade report generation application
+# Power Service Trade Report
 
 ## 🔁 Setup
 ### Step 1: Download and install the Anaconda / Miniconda distribution of Python
